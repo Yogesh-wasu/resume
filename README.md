@@ -4,10 +4,10 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Demo
 
-<img src="src/assets/images/preview/preview_1.jpg" 
+<img src="src/assets/images/preview/preview1.jpg" 
 				alt="Preview" />   
 
-<img src="src/assets/images/preview/preview_2.jpg" 
+<img src="src/assets/images/preview/preview2.jpg" 
 				alt="Preview" />   
 
 ## Install

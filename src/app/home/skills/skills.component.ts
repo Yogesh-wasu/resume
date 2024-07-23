@@ -1,6 +1,5 @@
 import {Component, Input, OnChanges, OnInit } from '@angular/core';
 
-
 @Component({
   selector: 'app-skills',
   templateUrl: './skills.component.html',
@@ -24,7 +23,7 @@ export class SkillsComponent implements OnInit, OnChanges {
     }],
     [{
       title: 'CSS3',
-      progress: 95
+      progress: 100
     }],
     [{
       title: 'JavaScript',
@@ -32,18 +31,22 @@ export class SkillsComponent implements OnInit, OnChanges {
     }],
     [{
       title: 'Typescript',
-      progress: 95
-    }],
-    [{
-      title: 'Angular Material',
-      progress: 90
+      progress: 100
     }],
     [{
       title: 'Angular 6 & 14',
       progress: 100
     }],
     [{
-      title: 'Git',
+      title: 'Angular Material',
+      progress: 100
+    }],
+    [{
+      title:'Bootstrap',
+      progress: 100
+    }],
+    [{
+      title:'jQuery',
       progress: 100
     }]
   ];
@@ -52,15 +55,26 @@ export class SkillsComponent implements OnInit, OnChanges {
 
     [{
       title: 'Node.js',
-      progress: 95
+      progress: 100
     }],
     [{
       title: 'Express.js',
-      progress: 90
+      progress: 100
+    }]
+  ];
+  public skill_3: any = [
+
+    [{
+      title: 'C',
+      progress: 100
+    }],
+    [{
+      title: 'C++',
+      progress: 100
     }]
   ];
 
-  public skill_3: any = [
+  public skill_4: any = [
 
     [{
       title: 'MySQL',
@@ -68,14 +82,77 @@ export class SkillsComponent implements OnInit, OnChanges {
     }],
     [{
       title: 'Maria DB',
-      progress: 95
+      progress: 100
+    }],
+    [{
+      title: 'MS SQL Server',
+      progress: 100
     }]
   ];
+  public skill_5: any = [
+
+    [{
+      title: 'JSON',
+      progress: 100
+    }],
+    [{
+      title: 'AJAX',
+      progress: 100
+    }],
+    [{
+      title: 'REST',
+      progress: 100
+    }],
+    [{
+      title: 'Postman',
+      progress: 100
+    }]
+  ];
+  public skill_6: any = [
+
+    [{
+      title: 'Git',
+      progress: 100
+    }],
+    [{
+      title: 'Bit Bucket',
+      progress: 100
+    }],
+    [{
+      title: 'JIRA',
+      progress: 100
+    }],
+    [{
+      title: 'UIpath Studio',
+      progress: 100
+    }],
+    [{
+      title: 'Visual Studio (2019/2022)',
+      progress: 100
+    }],
+    [{
+      title: 'Visual Studio Code',
+      progress: 100
+    }]
+  ];
+  public skill_7: any = [
+
+    [{
+      title: 'SSRS',
+      progress: 100
+    }]
+  ];
+
+ 
   
   public skillEnglish: any = [
-    { title: 'Client-Side', info: this.skill_1 },
-    { title: 'Server-Side', info: this.skill_2 },
-    { title: 'Data Base', info: this.skill_3 },
+    { title: 'Front End Development', info: this.skill_1 },
+    { title: 'Back End Development', info: this.skill_2 },
+    { title: 'Programming Languages', info: this.skill_3 },
+    { title: 'Database Management', info: this.skill_4 },
+    { title: 'Web Services', info: this.skill_5 },
+    { title: 'Frameworks/Tools', info: this.skill_6 },
+    { title: 'Reporting Tool', info: this.skill_7 }
   ];
   // END ENGLISH
 

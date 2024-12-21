@@ -152,7 +152,8 @@ export class SkillsComponent implements OnInit, OnChanges {
     { title: 'Database Management', info: this.skill_4 },
     { title: 'Web Services', info: this.skill_5 },
     { title: 'Frameworks/Tools', info: this.skill_6 },
-    { title: 'Reporting Tool', info: this.skill_7 }
+    { title: 'Reporting Tool', info: this.skill_7 },
+    { title: 'Agile Methodology'}
   ];
   // END ENGLISH
 

@@ -10,9 +10,21 @@ export class ProjectsComponent implements OnInit, OnChanges {
 
   public jobs: any = [
     {
+      position: "On-boarding Project",
+      company: "Mumbai",
+      period: "07/2024 - Present",
+      description: "Responsible for end-to-end development, managing front-end, back-end, and database layers.\n" + 
+      "Leveraged web development skills in Angular 14, Node.js 20, Git, and MySQL to deliver a robust application architecture.\n" + 
+      "Led the On-boarding project, implementing Optical Character Recognition (OCR) for PAN and Aadhaar card processing using Node.js, enabling efficient extraction of user data.\n" + 
+      "Independently developed and deployed the application, ensuring scalability, maintainability, and a smooth user experience.\n" + 
+      "Integrated real-time data validation and user authentication modules to enhance data accuracy and security.\n" + 
+      "Utilized best practices in API development to create a seamless data flow between front-end and back-end, optimizing performance and reliability.\n" + 
+      "Maintained version control with Git, enabling effective project tracking, collaboration, and documentation."
+  },
+    {
       position: "Healthy Homes Quest Project",
       company: "Mumbai",
-      period: "06/2023 - Present",
+      period: "06/2023 - 07/2024",
       description: "Responsible for front-end and database.\nApplied expertise in web development technologies, including Angular 14, Git, MySQL."
     },
     {

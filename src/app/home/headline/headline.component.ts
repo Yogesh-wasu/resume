@@ -8,7 +8,7 @@ import { Component, Input, OnChanges, OnInit } from '@angular/core';
 export class HeadlineComponent implements OnInit, OnChanges {
 
   public name: string = "YOGESHWAR WASU";
-  public titleEnglish: string = "Software developer";
+  public titleEnglish: string = "Mean Stack Developer";
 
   public title = this.titleEnglish;
   constructor() { }

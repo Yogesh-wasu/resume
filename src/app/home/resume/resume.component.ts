@@ -21,7 +21,7 @@ export class ResumeComponent implements OnInit, OnChanges {
       '<P>Hands-on experience in developing web applications using Angular and node.js.'
       +'<br>Ive had the opportunity to develop multiple applications single handed and in a team.'
       +'<br>Received the <b>“Super Squad Award”</b> for outstanding contributions in the Project Development in 2022 and 2023.'
-        + '</P><ul><li>PROJECT 1 : DBS Bank Project</il><li>PROJECT 2 : Healthy Homes Quest Project</li></ul>', 1);
+        + '</P><ul><li>PROJECT 1 : DBS Bank Project</il><li>PROJECT 2 : Healthy Homes Quest Project</li><li>PROJECT 3 : On-boarding Project</li></ul>', 1);
 
 
     const job_2: Job = new Job('CMS IT Services Private Limited (Nagpur, Maharashtra)', '13/08/2020 To 20/10/2021', 'Support Engineer',

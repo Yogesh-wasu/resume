@@ -10,7 +10,7 @@ export class ProfileComponent implements OnInit, OnChanges  {
   
 
   public titleEnglish: string = "YOGESHWAR WASU";
-  public subtitleEnglish: string = "SOFTWARE DEVELOPER";
+  public subtitleEnglish: string = "Mean Stack Developer";
   
   public title = this.titleEnglish;
   public subtitle = this.subtitleEnglish;
@@ -19,7 +19,7 @@ export class ProfileComponent implements OnInit, OnChanges  {
   // You can use a HTML tags in 'data'
   public profileEnglish: any =
     {
-      title: 'Career Objective:', data: '<p>Dedicated and experienced MEAN stack developer with a proven track record of delivering high-quality web applications. Leveraging 3+ years of expertise in front-end and back-end development using Angular, Node.js, and related technologies.'+ '<BR> Proficient in leading cross-functional teams to successfully complete projects on-time while adhering to quality benchmarks. Seeking opportunities to contribute my skills and knowledge to a dynamic team, driving innovation and excellence in web development.</p>',
+      title: 'Career Objective:', data: '<p>Dedicated and experienced MEAN stack developer with a proven track record of delivering high-quality web applications. Leveraging 4+ years of expertise in front-end and back-end development using Angular, Node.js, and related technologies.'+ '<BR> Proficient in leading cross-functional teams to successfully complete projects on-time while adhering to quality benchmarks. Seeking opportunities to contribute my skills and knowledge to a dynamic team, driving innovation and excellence in web development.</p>',
       contact: 'CONTACT', sp: 'SOCIAL PROFILES'
     };
   
